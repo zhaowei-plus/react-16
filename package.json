@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack",
     "build": "NODE_ENV=production node build/build",
     "dev": "node build/dev-server",
     "server": "node server"
@@ -34,7 +33,7 @@
     "http-proxy": "^1.17.0",
     "http-proxy-middleware": "^0.19.1",
     "koa2-http-proxy-middleware": "^1.0.1",
-    "less": "^3.8.1",
+    "less": "^3.9.0",
     "less-loader": "^4.1.0",
     "mockjs": "^1.0.1-beta3",
     "node-http-proxy-json": "^0.1.6",
@@ -47,7 +46,9 @@
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {
+    "array-move": "^2.1.0",
     "bootstrap": "^3.3.7",
+    "classnames": "^2.2.6",
     "eventsource-polyfill": "^0.9.6",
     "expose-loader": "^0.7.5",
     "express": "^4.16.4",
@@ -56,14 +57,19 @@
     "koa-cors": "0.0.16",
     "koa-static": "^5.0.0",
     "lodash": "^4.17.11",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "pure-render-decorator": "^1.2.1",
+    "react": "^16.8.6",
+    "react-color": "^2.17.3",
+    "react-dom": "^16.8.6",
     "react-redux": "^6.0.0",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "react-router-redux": "^4.0.8",
+    "react-sortable": "^2.0.0",
+    "react-sortable-hoc": "^1.9.1",
     "redux": "^4.0.1",
     "redux-saga": "^0.16.2",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "seamless-immutable": "^7.1.4"
   }
 }

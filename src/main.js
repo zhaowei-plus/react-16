@@ -11,7 +11,6 @@ import './index.css';
 import Router from './router';
 import sagaConfig from './redux';
 
-
 const sagaMiddleware = createSagaMiddleware();
 
 const store = createStore(
