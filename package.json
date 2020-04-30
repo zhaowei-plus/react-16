@@ -52,7 +52,7 @@
     "eventsource-polyfill": "^0.9.6",
     "expose-loader": "^0.7.5",
     "express": "^4.16.4",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "koa": "^2.6.2",
     "koa-cors": "0.0.16",
     "koa-static": "^5.0.0",
